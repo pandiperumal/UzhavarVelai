@@ -18,7 +18,7 @@ app.use('/api/labour', require('./routes/labour'));
 app.use('/api/machinery', require('./routes/machinery'));
 app.use('/api/intermediary', require('./routes/intermediary'));
 app.use('/api/admin', require('./routes/admin'));
-app.use('/api/booking', require('./routes/booking'));
+app.use('/api/bookings', require('./routes/booking'));
 app.use('/api/notification', require('./routes/notification'));
 app.use('/api/geo', require('./routes/geo'));
 app.use('/api/crops', require('./routes/crops'));

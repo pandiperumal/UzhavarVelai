@@ -1,0 +1,1 @@
+# Dependencies\nnode_modules/\n\n# Environment\n.env\n.env.local\n\n# Logs\n*.log\n\n# OS\n.DS_Store\nThumbs.db
