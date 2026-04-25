@@ -107,7 +107,8 @@ export default function Browse() {
         setSelectedItem(null);
         setTimeout(() => setMessage({ type: '', text: '' }), 3000);
       } else {
-        setMessage({ type: 'error', text: txt.bookingFailed });
+        const data = await res.json();
+        setMessage({ type: 'error', text: data.message || txt.bookingFailed });
       }
     } catch (err) {
       setMessage({ type: 'error', text: txt.connectionError });
